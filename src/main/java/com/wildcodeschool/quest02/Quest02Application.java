@@ -27,23 +27,23 @@ public class Quest02Application {
 		String number13 = "Jodie Whittaker";
 		
 		if (number == 9){
-			return "{number: " + number + ", name: " + number9 +"}";			
+			return "{\"number\": " + number + ", \"name\": \"" + number9 +"\"}";			
 		}
 		
-		if (number == 10){
-			return "{number: " + number + ", name: " + number10 +"}";			
+		else if (number == 10){
+			return "{\"number\": " + number + ", \"name\": \"" + number10 +"\"}";			
 		}
 		
-		if (number == 11){
-			return "{number: " + number + ", name: " + number11 +"}";			
+		else if (number == 11){
+			return "{\"number\": " + number + ", \"name\": \"" + number11 +"\"}";			
 		}
 		
-		if (number == 12){
-			return "{number: " + number + ", name: " + number12 +"}";			
+		else if (number == 12){
+			return "{\"number\": " + number + ", \"name\": \"" + number12 +"\"}";			
 		}
 		
-		if (number == 13){
-			return "{number: " + number + ", name: " + number13 +"}";			
+		else if (number == 13){
+			return "{\"number\": " + number + ", \"name\": \"" + number13 +"\"}";			
 		}
 	
 		else if (number >= 1 && number <=8 ) {
